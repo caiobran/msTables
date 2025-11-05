@@ -29,6 +29,21 @@ and this project adheres to [Nano Versioning](https://semver.org/):
 
 ---
 
+## [1.0.2] - 2025-11-05
+
+### Added
+Add comprehensive test framework and SLURM distributed computing
+
+### Changed
+- Updated version to 1.0.2
+
+### Technical
+- Git commit: e61ec5d
+- Git branch: master
+
+---
+
+
 ## [1.0.1] - 2025-01-XX
 
 ### Added
