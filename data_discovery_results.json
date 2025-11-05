@@ -1,0 +1,1860 @@
+{
+  "local_paths": {
+    "~/USERS/WADEWILSON/LIBRARY/MOBILE DOCUMENTS/COM~APPLE~CLOUDDOCS/DATA/FINANCIAL/YAHOO_SP500/": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "SP500_SCRAPE_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "DATA_JANE_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "YAHOO_FINANCE_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "FINANCIAL_DATA_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/YAHOO_FINANCE_SP500_SCRAPE": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "MSTABLES_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "YAHOO_SCRAPE_TEST_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/YAHOO_FINANCE_SP500_SCRAPE/TEST": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "CSV_SAVE_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/Users/owner/sbox/data_dirty/ya_assets": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "STOCKS_PATH": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    },
+    "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "databases": 0,
+      "data_files": 0,
+      "error": null
+    }
+  },
+  "remote_machines": {
+    "5,1_owner_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_owner_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_owner_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_owner_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "5,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_vanessa_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_vanessa_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_vanessa_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_vanessa_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "5,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_scottfarkis_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_scottfarkis_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_scottfarkis_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_scottfarkis_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "5,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_wadewilson_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_wadewilson_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_wadewilson_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_wadewilson_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "5,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_janelaptop_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_janelaptop_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_janelaptop_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_janelaptop_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "5,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "5,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "5,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_owner_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_owner_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_owner_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_owner_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "6,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_vanessa_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_vanessa_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_vanessa_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_vanessa_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "6,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_scottfarkis_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_scottfarkis_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_scottfarkis_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_scottfarkis_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "6,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_wadewilson_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_wadewilson_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_wadewilson_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_wadewilson_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "6,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_janelaptop_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_janelaptop_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_janelaptop_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_janelaptop_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "6,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "6,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "6,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_owner_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_owner_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_owner_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_owner_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_owner_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "7,1",
+      "username": "owner",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_vanessa_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_vanessa_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_vanessa_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_vanessa_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_vanessa_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "7,1",
+      "username": "vanessa",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_scottfarkis_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_scottfarkis_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_scottfarkis_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_scottfarkis_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_scottfarkis_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "7,1",
+      "username": "scottfarkis",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_wadewilson_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_wadewilson_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_wadewilson_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_wadewilson_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_wadewilson_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "7,1",
+      "username": "wadewilson",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_janelaptop_/Users/owner/Data_Jane\ud83e\udd11/Financial_Data": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/Data_Jane\ud83e\udd11/Financial_Data",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_janelaptop_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/FINANCIAL_DATA",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_janelaptop_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/MSTABLES_2019_2022",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_janelaptop_/Users/owner/sbox/data_dirty/ya_assets": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/Users/owner/sbox/data_dirty/ya_assets",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    },
+    "7,1_janelaptop_/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/DATA_JANE\ud83e\udd11/STOCKS",
+      "accessible": true,
+      "exists": true,
+      "size": 104857600,
+      "files": 100,
+      "error": null
+    },
+    "7,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/": {
+      "machine": "7,1",
+      "username": "janelaptop",
+      "path": "/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/",
+      "accessible": true,
+      "exists": false,
+      "size": 0,
+      "files": 0,
+      "error": null
+    }
+  },
+  "apis": {
+    "ALPHAVANTAGE_API_KEY": {
+      "api_name": "ALPHAVANTAGE_API_KEY",
+      "key_provided": true,
+      "key_length": 16,
+      "testable": false,
+      "test_result": null,
+      "error": null
+    },
+    "ALPHA_VANTAGE_API1": {
+      "api_name": "ALPHA_VANTAGE_API1",
+      "key_provided": true,
+      "key_length": 16,
+      "testable": true,
+      "test_result": "SUCCESS",
+      "error": null
+    },
+    "ALPHA_VANTAGE_API2": {
+      "api_name": "ALPHA_VANTAGE_API2",
+      "key_provided": true,
+      "key_length": 16,
+      "testable": true,
+      "test_result": "SUCCESS",
+      "error": null
+    },
+    "ALPHA_VANTAGE_API3": {
+      "api_name": "ALPHA_VANTAGE_API3",
+      "key_provided": true,
+      "key_length": 16,
+      "testable": true,
+      "test_result": "SUCCESS",
+      "error": null
+    },
+    "POLYGON_AN3_API_USER": {
+      "api_name": "POLYGON_AN3_API_USER",
+      "key_provided": true,
+      "key_length": 25,
+      "testable": true,
+      "test_result": "INVALID_KEY",
+      "error": null
+    },
+    "POLYGON_AN3_API_KEY": {
+      "api_name": "POLYGON_AN3_API_KEY",
+      "key_provided": true,
+      "key_length": 32,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "POLYGON_YDT_API_KEY": {
+      "api_name": "POLYGON_YDT_API_KEY",
+      "key_provided": true,
+      "key_length": 32,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "QUANDL_API_KEY": {
+      "api_name": "QUANDL_API_KEY",
+      "key_provided": true,
+      "key_length": 20,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "QUANDL_API_ACCOUNT": {
+      "api_name": "QUANDL_API_ACCOUNT",
+      "key_provided": true,
+      "key_length": 38,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "QUANDL_API_HELP": {
+      "api_name": "QUANDL_API_HELP",
+      "key_provided": true,
+      "key_length": 23,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "TIINGO_API_USER": {
+      "api_name": "TIINGO_API_USER",
+      "key_provided": true,
+      "key_length": 7,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "TIINGO_API_email": {
+      "api_name": "TIINGO_API_email",
+      "key_provided": true,
+      "key_length": 23,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "TIINGO_API_KEY": {
+      "api_name": "TIINGO_API_KEY",
+      "key_provided": true,
+      "key_length": 40,
+      "testable": true,
+      "test_result": "SUCCESS",
+      "error": null
+    },
+    "Metalprice_Paintstone_API_KEY": {
+      "api_name": "Metalprice_Paintstone_API_KEY",
+      "key_provided": true,
+      "key_length": 32,
+      "testable": false,
+      "test_result": null,
+      "error": null
+    },
+    "dbnomics_API_key": {
+      "api_name": "dbnomics_API_key",
+      "key_provided": true,
+      "key_length": 40,
+      "testable": false,
+      "test_result": null,
+      "error": null
+    },
+    "dbnomics_API_email": {
+      "api_name": "dbnomics_API_email",
+      "key_provided": true,
+      "key_length": 23,
+      "testable": false,
+      "test_result": null,
+      "error": null
+    },
+    "Quandl_API_KEY": {
+      "api_name": "Quandl_API_KEY",
+      "key_provided": true,
+      "key_length": 20,
+      "testable": true,
+      "test_result": "HTTP_403",
+      "error": null
+    },
+    "FRED_API": {
+      "api_name": "FRED_API",
+      "key_provided": true,
+      "key_length": 20,
+      "testable": false,
+      "test_result": null,
+      "error": null
+    },
+    "NORGATE_API": {
+      "api_name": "NORGATE_API",
+      "key_provided": true,
+      "key_length": 65,
+      "testable": false,
+      "test_result": null,
+      "error": null
+    }
+  },
+  "databases": {
+    "databases": {
+      "data/mstables.sqlite": {
+        "exists": true,
+        "tables": 195,
+        "records": 78603442,
+        "size": 7929262080
+      },
+      "data/market_data.db": {
+        "exists": true,
+        "tables": 4,
+        "records": 16,
+        "size": 49152
+      },
+      "data/securities_master.db": {
+        "exists": true,
+        "tables": 3,
+        "records": 33,
+        "size": 53248
+      }
+    },
+    "total_tables": 202,
+    "total_records": 78603491
+  },
+  "global_finance": {
+    "project_exists": true,
+    "path": "/Users/xavier/PycharmProjects/Global-Finance",
+    "data_files": 245,
+    "databases": 1,
+    "size": 1964101269,
+    "error": null
+  }
+}

@@ -1,0 +1,360 @@
+================================================================================
+DATA DISCOVERY TEST REPORT
+================================================================================
+Generated: 2025-06-29 15:06:50
+Machine: mac-pro.lan
+Platform: macOS-15.5-x86_64-i386-64bit
+
+LOCAL DATA PATHS
+----------------------------------------
+❌ ~/USERS/WADEWILSON/LIBRARY/MOBILE DOCUMENTS/COM~APPLE~CLOUDDOCS/DATA/FINANCIAL/YAHOO_SP500/
+
+❌ SP500_SCRAPE_PATH
+
+❌ /Users/owner/Data_Jane🤑/Financial_Data
+
+❌ ~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+
+❌ DATA_JANE_PATH
+
+❌ YAHOO_FINANCE_PATH
+
+❌ /USERS/OWNER/DATA_JANE🤑
+
+❌ FINANCIAL_DATA_PATH
+
+❌ /USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+
+❌ /YAHOO_FINANCE_SP500_SCRAPE
+
+❌ /USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+
+❌ /Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+
+❌ /USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+
+❌ MSTABLES_PATH
+
+❌ YAHOO_SCRAPE_TEST_PATH
+
+❌ /YAHOO_FINANCE_SP500_SCRAPE/TEST
+
+❌ CSV_SAVE_PATH
+
+❌ /Users/owner/sbox/data_dirty/ya_assets
+
+❌ /USERS/OWNER/DATA_JANE🤑/STOCKS
+
+❌ STOCKS_PATH
+
+❌ /USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+
+Total local files: 0
+Total local size: 0 bytes (0.0 MB)
+
+REMOTE MACHINE ACCESS
+----------------------------------------
+✅ 5,1_owner_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 5,1_owner_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 5,1_owner_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_owner_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 5,1_owner_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 5,1_owner_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_owner_/Users/owner/sbox/data_dirty/ya_assets
+✅ 5,1_owner_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 5,1_vanessa_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 5,1_vanessa_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 5,1_vanessa_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_vanessa_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 5,1_vanessa_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 5,1_vanessa_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_vanessa_/Users/owner/sbox/data_dirty/ya_assets
+✅ 5,1_vanessa_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 5,1_scottfarkis_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 5,1_scottfarkis_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 5,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 5,1_scottfarkis_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 5,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_scottfarkis_/Users/owner/sbox/data_dirty/ya_assets
+✅ 5,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 5,1_wadewilson_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 5,1_wadewilson_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 5,1_wadewilson_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 5,1_wadewilson_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 5,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_wadewilson_/Users/owner/sbox/data_dirty/ya_assets
+✅ 5,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 5,1_janelaptop_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 5,1_janelaptop_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 5,1_janelaptop_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 5,1_janelaptop_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 5,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_janelaptop_/Users/owner/sbox/data_dirty/ya_assets
+✅ 5,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 5,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 6,1_owner_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 6,1_owner_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 6,1_owner_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_owner_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 6,1_owner_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 6,1_owner_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_owner_/Users/owner/sbox/data_dirty/ya_assets
+✅ 6,1_owner_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 6,1_vanessa_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 6,1_vanessa_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 6,1_vanessa_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_vanessa_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 6,1_vanessa_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 6,1_vanessa_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_vanessa_/Users/owner/sbox/data_dirty/ya_assets
+✅ 6,1_vanessa_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 6,1_scottfarkis_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 6,1_scottfarkis_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 6,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 6,1_scottfarkis_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 6,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_scottfarkis_/Users/owner/sbox/data_dirty/ya_assets
+✅ 6,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 6,1_wadewilson_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 6,1_wadewilson_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 6,1_wadewilson_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 6,1_wadewilson_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 6,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_wadewilson_/Users/owner/sbox/data_dirty/ya_assets
+✅ 6,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 6,1_janelaptop_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 6,1_janelaptop_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 6,1_janelaptop_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 6,1_janelaptop_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 6,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_janelaptop_/Users/owner/sbox/data_dirty/ya_assets
+✅ 6,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 6,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 7,1_owner_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 7,1_owner_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 7,1_owner_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_owner_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 7,1_owner_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 7,1_owner_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_owner_/Users/owner/sbox/data_dirty/ya_assets
+✅ 7,1_owner_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_owner_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 7,1_vanessa_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 7,1_vanessa_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 7,1_vanessa_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_vanessa_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 7,1_vanessa_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 7,1_vanessa_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_vanessa_/Users/owner/sbox/data_dirty/ya_assets
+✅ 7,1_vanessa_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_vanessa_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 7,1_scottfarkis_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 7,1_scottfarkis_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 7,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 7,1_scottfarkis_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 7,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_scottfarkis_/Users/owner/sbox/data_dirty/ya_assets
+✅ 7,1_scottfarkis_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_scottfarkis_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 7,1_wadewilson_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 7,1_wadewilson_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 7,1_wadewilson_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 7,1_wadewilson_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 7,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_wadewilson_/Users/owner/sbox/data_dirty/ya_assets
+✅ 7,1_wadewilson_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_wadewilson_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+✅ 7,1_janelaptop_/Users/owner/Data_Jane🤑/Financial_Data
+✅ 7,1_janelaptop_~/USERS/OWNER/SBOX/PYCHARMPROJECTS/GLOBAL-FINANCE/DATA/
+✅ 7,1_janelaptop_/USERS/OWNER/DATA_JANE🤑
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/FINANCIAL_DATA
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS
+✅ 7,1_janelaptop_/Users/owner/sbox/PycharmProjects/yahoo_finance_Sp500_scrape
+✅ 7,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/MSTABLES_2019_2022
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_janelaptop_/Users/owner/sbox/data_dirty/ya_assets
+✅ 7,1_janelaptop_/USERS/OWNER/DATA_JANE🤑/STOCKS
+   Files: 100, Size: 104,857,600 bytes
+✅ 7,1_janelaptop_/USERS/OWNER/SBOX/DATA_DIRTY/YA_ASSETS/STOCK_DFS/
+Accessible machines: 60
+
+API KEY STATUS
+----------------------------------------
+⚠️ ALPHAVANTAGE_API_KEY
+   Key length: 16
+✅ ALPHA_VANTAGE_API1
+   Key length: 16
+   Test result: SUCCESS
+✅ ALPHA_VANTAGE_API2
+   Key length: 16
+   Test result: SUCCESS
+✅ ALPHA_VANTAGE_API3
+   Key length: 16
+   Test result: SUCCESS
+⚠️ POLYGON_AN3_API_USER
+   Key length: 25
+   Test result: INVALID_KEY
+⚠️ POLYGON_AN3_API_KEY
+   Key length: 32
+   Test result: HTTP_403
+⚠️ POLYGON_YDT_API_KEY
+   Key length: 32
+   Test result: HTTP_403
+⚠️ QUANDL_API_KEY
+   Key length: 20
+   Test result: HTTP_403
+⚠️ QUANDL_API_ACCOUNT
+   Key length: 38
+   Test result: HTTP_403
+⚠️ QUANDL_API_HELP
+   Key length: 23
+   Test result: HTTP_403
+⚠️ TIINGO_API_USER
+   Key length: 7
+   Test result: HTTP_403
+⚠️ TIINGO_API_email
+   Key length: 23
+   Test result: HTTP_403
+✅ TIINGO_API_KEY
+   Key length: 40
+   Test result: SUCCESS
+⚠️ Metalprice_Paintstone_API_KEY
+   Key length: 32
+⚠️ dbnomics_API_key
+   Key length: 40
+⚠️ dbnomics_API_email
+   Key length: 23
+⚠️ Quandl_API_KEY
+   Key length: 20
+   Test result: HTTP_403
+⚠️ FRED_API
+   Key length: 20
+⚠️ NORGATE_API
+   Key length: 65
+Working APIs: 4
+
+GLOBAL-FINANCE PROJECT
+----------------------------------------
+✅ Global-Finance project
+   Path: /Users/xavier/PycharmProjects/Global-Finance
+   Data files: 245
+   Databases: 1
+   Size: 1,964,101,269 bytes (1873.1 MB)
+
+DATABASE CONNECTIVITY
+----------------------------------------
+Total tables: 202
+Total records: 78,603,491
+
+✅ data/mstables.sqlite
+   Tables: 195
+   Records: 78,603,442
+   Size: 7,929,262,080 bytes
+✅ data/market_data.db
+   Tables: 4
+   Records: 16
+   Size: 49,152 bytes
+✅ data/securities_master.db
+   Tables: 3
+   Records: 33
+   Size: 53,248 bytes
+
+SUMMARY STATISTICS
+----------------------------------------
+Environment variables loaded: 76
+Data paths tested: 21
+Remote machines tested: 150
+API keys tested: 19
+Working APIs: 4
+Total local files: 0
+Total local size: 0.0 MB
+Database tables: 202
+Database records: 78,603,491

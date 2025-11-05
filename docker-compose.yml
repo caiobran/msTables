@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # PostgreSQL database for financial data (mstables)
+  postgres:
+    image: postgres:15-alpine
+    container_name: mstables-postgres
+    environment:
+      POSTGRES_USER: mstables_user
+      POSTGRES_PASSWORD: mstables_password
+      POSTGRES_DB: mstables
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./data/postgres_init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mstables_user -d mstables"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - mstables-network
+
+  # Application service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mstables-app
+    environment:
+      # PostgreSQL connection
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: mstables_user
+      POSTGRES_PASSWORD: mstables_password
+      POSTGRES_DB: mstables
+      # SQLite for DandE.db (local file)
+      DANDE_DB_PATH: /app/data/DandE.db
+      # Financial data DB path (PostgreSQL connection string)
+      FINANCIAL_DB_TYPE: postgresql
+      # Original SQLite path (for migration)
+      SQLITE_DB_PATH: /app/data/mstables.sqlite
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./input:/app/input
+      - ./CBOE_data:/app/CBOE_data
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - mstables-network
+    command: tail -f /dev/null  # Keep container running
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  mstables-network:
+    driver: bridge
+

@@ -1,0 +1,17 @@
+URL ID,URL,Status,Response,Data Length
+1,https://www.morningstar.com/api/v2/search/Securities/500/usquote-us/?q={}{},Not Working,404,0
+2,https://www.morningstar.com/api/v2/search/Securities/500/usquote-noneus/?q={}{},Not Working,404,0
+3,https://www.morningstar.com/api/v2/search/securities/500/usquote-v2/?q={}{},Not Working,404,0
+4,http://quotes.morningstar.com/stockq/c-company-profile?t={}:{},Not Working,504,0
+5,http://quotes.morningstar.com/stockq/c-header?t={}:{},Not Working,504,0
+6,http://financials.morningstar.com/valuate/valuation-history.action?type=price-earnings&t={}:{}&culture=en-US&order=asc,Not Working,504,0
+7,http://financials.morningstar.com/finan/financials/getKeyStatPart.html?t={}:{}&culture=en-US&order=asc,Not Working,504,0
+8,http://financials.morningstar.com/finan/financials/getFinancePart.html?t={}:{}&culture=en-US&order=asc,Not Working,504,0
+9,http://performance.morningstar.com/perform/Performance/stock/exportStockPrice.action?t={}:{}&pd=1yr&freq=d&pg=0&culture=en-US,Not Working,"HTTPConnectionPool(host='performance.morningstar.com', port=80): Max retries exceeded with url: /perform/Performance/stock/exportStockPrice.action?t=XNYS:AAPL&pd=1yr&freq=d&pg=0&culture=en-US (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x194093530>, 'Connection to performance.morningstar.com timed out. (connect timeout=None)'))",0
+10,http://financials.morningstar.com/ajax/ReportProcess4HtmlAjax.html?t={}:{}&region=usa&culture=en-US&reportType=is&period=12&dataType=A&order=asc&columnYear=5&curYearPart=1st5year&rounding=3&number=1,Not Working,504,0
+11,http://financials.morningstar.com/ajax/ReportProcess4HtmlAjax.html?t={}:{}&region=usa&culture=en-US&reportType=is&period=3&dataType=A&order=asc&columnYear=5&curYearPart=1st5year&rounding=3&number=1,Not Working,504,0
+12,http://financials.morningstar.com/ajax/ReportProcess4HtmlAjax.html?t={}:{}&region=usa&culture=en-US&reportType=cf&period=12&dataType=A&order=asc&columnYear=5&curYearPart=1st5year&rounding=3&number=1,Not Working,504,0
+13,http://financials.morningstar.com/ajax/ReportProcess4HtmlAjax.html?t={}:{}&region=usa&culture=en-US&reportType=cf&period=3&dataType=A&order=asc&columnYear=5&curYearPart=1st5year&rounding=3&number=1,Not Working,504,0
+14,http://financials.morningstar.com/ajax/ReportProcess4HtmlAjax.html?t={}:{}&region=usa&culture=en-US&reportType=bs&period=12&dataType=A&order=asc&columnYear=5&curYearPart=1st5year&rounding=3&number=1,Not Working,504,0
+15,http://financials.morningstar.com/ajax/ReportProcess4HtmlAjax.html?t={}:{}&region=usa&culture=en-US&reportType=bs&period=3&dataType=A&order=asc&columnYear=5&curYearPart=1st5year&rounding=3&number=1,Not Working,504,0
+16,http://insiders.morningstar.com/insiders/trading/insider-activity-data2.action?&t={}:{}&region=usa&culture=en-US&cur=&yc=1&tc=&pageSize=100&_=1556547256995,Not Working,504,0
