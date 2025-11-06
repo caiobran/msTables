@@ -1,0 +1,113 @@
+graph TD
+    %% Legend
+    subgraph "Legend"
+        L1[Data Sources]:::dataSource
+        L2[Processes]:::process
+        L3[Algorithms]:::algorithm
+        L4[GPU Components]:::gpu
+        L5[Monitoring]:::monitoring
+        L6[Database]:::database
+    end
+
+    %% Main Components
+    A[Market Data Sources] --> B[Data Collection & Storage]
+    B --> C[Market Analysis Pipeline]
+    C --> D[Trading System]
+    D --> E[Trader Workstation Integration]
+
+    %% Data Sources with API Calls
+    subgraph "Data Sources & APIs"
+        A1[Morningstar API] -->|Daily| B
+        A2[WSJ Data] -->|Daily| B
+        A3[Market Data APIs] -->|Real-time| B
+        A3a[Yahoo Finance API] -->|Real-time| A3
+        A3b[Alpha Vantage API] -->|Real-time| A3
+        A3c[Twelve Data API] -->|Real-time| A3
+        A3d[IEX Cloud API] -->|Real-time| A3
+        A3e[Polygon.io API] -->|Real-time| A3
+        A4[Commodity Data] -->|Daily| B
+    end
+
+    %% Database with Data Flow
+    subgraph "Data Collection & Storage"
+        B1[Data Validation] -->|Valid| B2[SQLite Database]
+        B1 -->|Invalid| B3[Error Logging]
+        B3 -->|Retry| A1
+        B3 -->|Retry| A2
+        B3 -->|Retry| A3
+        B3 -->|Retry| A4
+        B2 -->|Nightly| C
+    end
+
+    %% Analysis Pipeline with Nightly Process
+    subgraph "Market Analysis Pipeline"
+        C1[Ratio Calculator] -->|Nightly| C2[Market Simulator]
+        C2 -->|Nightly| C3[Market Predictor]
+        C3 -->|Nightly| C4[Backtesting Engine]
+        C4 -->|Nightly| C5[Performance Metrics]
+    end
+
+    %% Trading System with Real-time Components
+    subgraph "Trading System"
+        D1[Signal Generation] -->|Real-time| D2[Position Management]
+        D2 -->|Real-time| D3[Risk Management]
+        D3 -->|Real-time| D4[Order Queue]
+    end
+
+    %% TWS Integration with Monitoring
+    subgraph "Trader Workstation Integration"
+        E1[Order Execution] -->|Real-time| E2[Position Monitoring]
+        E2 -->|Real-time| E3[Account Management]
+        E3 -->|Daily| E4[Performance Report]
+    end
+
+    %% GPU Processing (Separated and Emphasized)
+    subgraph "GPU Processing"
+        F1[Technical Indicators] ==>|"GPU Input"| F5[Feature Engineering]
+        F2[Regime Detection] ==>|"GPU Input"| F5
+        F3[Commodity Correlations] ==>|"GPU Input"| F5
+        F4[GPU Acceleration] ==>|"Parallel Processing"| F5
+        F5 ==>|"GPU Output"| C3
+    end
+
+    %% Nightly Run Flow (Green)
+    B2 -->|"Nightly Run"| C1
+    C1 -->|"Nightly Run"| C2
+    C2 -->|"Nightly Run"| C3
+    C3 -->|"Nightly Run"| C4
+    C4 -->|"Nightly Run"| C5
+    C5 -->|"Nightly Run"| D1
+
+    %% Data Validation and Error Handling
+    subgraph "Data Quality Control"
+        G1[Missing Data Check] -->|"Alert"| G2[Data Recovery]
+        G2 -->|"Retry"| A1
+        G2 -->|"Retry"| A2
+        G2 -->|"Retry"| A3
+        G2 -->|"Retry"| A4
+        G1 -->|"Valid"| B2
+    end
+
+    %% Logging and Monitoring (Moved to bottom)
+    subgraph "System Monitoring"
+        H1[Error Logging] -->|"Alert"| H2[System Health]
+        H2 -->|"Status"| H3[Performance Metrics]
+        H3 -->|"Report"| H4[Daily Summary]
+    end
+
+    %% Style Definitions
+    classDef default fill:#2C3E50,color:white,font-size:20px
+    classDef dataSource fill:#2980B9,color:white,font-size:20px
+    classDef process fill:#27AE60,color:white,font-size:20px
+    classDef algorithm fill:#8E44AD,color:white,font-size:20px
+    classDef gpu fill:#C0392B,color:white,font-size:20px,stroke-width:4px
+    classDef monitoring fill:#D35400,color:white,font-size:20px
+    classDef database fill:#34495E,color:white,font-size:20px
+
+    %% Apply Styles
+    class A1,A2,A3,A4,A3a,A3b,A3c,A3d,A3e dataSource
+    class C1,C2,C3,C4,C5 process
+    class F1,F2,F3,F4,F5 gpu
+    class H1,H2,H3,H4 monitoring
+    class B2 database
+    class D1,D2,D3,D4 algorithm

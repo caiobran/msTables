@@ -1,9 +1,9 @@
 mstables
 ========
 
-msTables was a [MorningStar.com](https://www.morningstar.com) scraper written in python that fetches, parses and stores financial and market data for over 70k securities into a relational SQLite database. The scraper provided a Command Line Interface (CLI) that allows the user greater flexibility for creating and managing multiple *.sqlite* files. Once data has been downloaded into the database files, [dataframes.py](dataframes.py) module can be used to easily create DataFrame objects from the database tables for further analysis.
+msTables is a [MorningStar.com](https://www.morningstar.com) scraper written in python that fetches, parses and stores financial and market data for over 70k securities into a relational SQLite database. The scraper provides a Command Line Interface (CLI) that allows the user greater flexibility for creating and managing multiple *.sqlite* files. Once data has been downloaded into the database files, [dataframes.py](src/dataframes.py) module can be used to easily create DataFrame objects from the database tables for further analysis.
 
-The scraper had to change starting in 2016 and finally in 2017 Morningstar paywalled access to MsRatio data see[Morningstar API](https://www.morningstar.com/content/dam/marketing/shared/Company/Products/Direct_Cloud/Morningstar-Cloud-Technical-FAQ.pdf). We are expanding upon the work that caiobran did for us to include multiple API's, pandas datareader, and local financial analysis for multiple functions. See [input/api.json](input/api.json) for the complete list of URL's.
+The scraper should work as long as the structure of the responses does not change for the URL's used. See [input/api.json](input/api.json) for the complete list of URL's.
 
 IMPORTANT: The Morningstar.com data is protected under "Copyright (c) 2018 Morningstar. All rights reserved." This tool should be for personal purposes only. See the following links for more information regarding Morningstar.com terms & conditions:
 - [Copyright][2]
@@ -14,6 +14,61 @@ As a fan of [Benjamin Graham](https://en.wikipedia.org/wiki/Benjamin_Graham)'s [
 
 ## Next steps
 - Finalize instructions for the scraper CLI
+
+## Future Features
+
+### 1. Buy/Sell/Hold Recommendation Engine
+- Implement logic to generate actionable buy/sell/hold recommendations based on performance metrics in the database.
+- Add a function or module to output these recommendations as a report or dashboard.
+
+### 2. Enhanced CLI Options
+- Add more command-line arguments for fetchers (e.g., date range, specific data types, output format).
+- Add CLI help text and documentation.
+
+### 3. Alternative Data Source for IEX
+- Research and integrate a replacement for IEX Cloud, since it appears to be out of business.
+
+### 4. Sector/Industry Performance Analysis
+- Add more advanced sector/industry performance visualizations and summaries.
+
+### 5. Error Log Query & Analysis Tools
+- Implement a utility to query, summarize, and visualize error logs from the database.
+
+### 6. Retry Logic for API Rate Limits
+- Add automatic retry and exponential backoff for API calls that hit rate limits or timeouts.
+
+### 7. Data Freshness Dashboard
+- Create a dashboard or report showing the last update time for each symbol/data type.
+
+### 8. Export/Import Utilities
+- Add functions to export data to CSV/JSON and import from external sources.
+
+### 9. User-Configurable Data Fetching
+- Allow users to specify which data types to fetch and how frequently, via a config file or CLI.
+
+### 10. Automated Backups & Restore
+- Schedule regular database backups and provide a restore utility.
+
+---
+
+## ⚡️ Speed, DRY, and Deduplication Improvements
+- Review all fetchers and data processing code for opportunities to:
+  - Increase speed (e.g., batch processing, async requests, vectorized pandas/numpy operations).
+  - Apply DRY (Don't Repeat Yourself) principles—refactor repeated code into reusable functions or classes.
+  - Deduplicate logic across modules (especially in data loading, cleaning, and visualization).
+- Consider profiling the codebase to identify bottlenecks.
+
+---
+
+## 📁 File Consolidation
+- There are currently multiple versions of `data_overview` scripts and notebooks:
+  - `src/model/data_overview.py`
+  - `data_overview.ipynb`
+  - `data_overview_002.ipynb`
+  - `data_overview_003.ipynb`
+  - `data_overview_new.ipynb`
+  - (and possibly others)
+- **TODO:** Review, deduplicate, and consolidate these into a single, up-to-date version.
 
 Instructions
 ------------
@@ -51,7 +106,7 @@ Execute `python main.py` from the project root directory to start the scraper CL
 The scraper will automatically create a directory *db/* in the root folder to store the *.sqlite* database files generated. The current file name in use will be displayed on the scraper CLI under action `0` (see CLI figure above). Database files will contain a relational database with the following main tables:
 
 **Database Tables**
-- all _**MS*** tables and ratio data has been paywalled so we are side stepping those. The below financial info needs to be adjusted to allow for analysis from other data sources. See pandas dataframe for full list.
+
 - _**Master**_: Main bridge table with complete list of security and exchange symbol pairs, security name, sector, industry, security type, and FY end dates
 - _**MSheader**_: Quote Summary data with day hi, day lo, 52wk hi, 52wk lo, forward P/E, div. yield, volumes, and current P/B, P/S, and P/CF ratios
 - _**MSvaluation**_: 10yr stock valuation indicators (P/E, P/S, P/B, P/C)

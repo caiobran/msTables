@@ -1,0 +1,5 @@
+-- Query: Check for metals and commodities data
+-- Last updated: 2025-05-20
+SELECT DISTINCT symbol
+FROM tiingo_prices
+WHERE symbol LIKE '%GC%' OR symbol LIKE '%SI%' OR symbol LIKE '%HG%' OR symbol LIKE '%PL%' OR symbol LIKE '%PA%' OR symbol LIKE '%CL%' OR symbol LIKE '%NG%' OR symbol LIKE '%ZC%' OR symbol LIKE '%ZW%' OR symbol LIKE '%ZS%' OR symbol LIKE '%ZL%' OR symbol LIKE '%ZM%' OR symbol LIKE '%ZO%' OR symbol LIKE '%ZR%' OR symbol LIKE '%ZT%' OR symbol LIKE '%ZF%' OR symbol LIKE '%ZN%' OR symbol LIKE '%ZB%' OR symbol LIKE '%ZF%' OR symbol LIKE '%ZT%' OR symbol LIKE '%ZM%' OR symbol LIKE '%ZL%' OR symbol LIKE '%ZS%' OR symbol LIKE '%ZW%' OR symbol LIKE '%ZC%' OR symbol LIKE '%NG%' OR symbol LIKE '%CL%' OR symbol LIKE '%PA%' OR symbol LIKE '%PL%' OR symbol LIKE '%HG%' OR symbol LIKE '%SI%' OR symbol LIKE '%GC%'; 

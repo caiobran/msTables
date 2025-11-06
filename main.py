@@ -1,162 +1,221 @@
-#!/usr/bin/env python
+"""
+Main script for the financial data management system.
 
-from shutil import copyfile
-from datetime import datetime
-from importlib import reload
-import fetch, time, os, re, sqlite3
+This script coordinates the data collection, processing, and visualization
+components of the system.
+"""
+# TODO 1.0.0: Add proper error handling and logging configuration
+# TODO 1.0.0: Add command line argument parsing
+# TODO 1.1.0: Add configuration file support
+# TODO 1.1.0: Implement health checks
 
-__author__ = "Caio Brandao"
-__copyright__ = "Copyright 2019+, Caio Brandao"
-__license__ = "MIT"
-__version__ = "0.0"
-__maintainer__ = "Caio Brandao"
-__email__ = "caiobran88@gmail.com"
+import pytest
+import os
+import logging
+from datetime import datetime, timedelta
+from pathlib import Path
+from dotenv import load_dotenv
+from collections import defaultdict
+import sqlite3
+import sys
+import pandas as pd
 
+from src.utils.data_shepherd import ExtendedDataShepherd
+from src.model.data_overview import DataVisualizer
 
-# Create back-up file under /db/backup
-def backup_db(file):
-    #today = datetime.today().strftime('%Y%m%d%H')
-    new_file = db_file['db_backup'].format(
-        input('Enter back-up file name:\n'))
-    fetch.print_('Please wait while the database file is backed-up ...')
-    copyfile(db_file['path'], new_file)
-    return '\n~ Back-up file saved\t{}'.format(new_file)
+# TODO 1.0.0: Set up proper logging configuration
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('data/logs/main.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
-
-# Change variable for .sqlite file name based on user input
-def change_name(old_name):
-    msg = 'Existing database files in directory \'db/\': {}\n'
-    msg += 'Enter new name for .sqlite file (current = \'{}\'):\n'
-    fname = lambda x: re.sub('.sqlite', '', x)
-    files = [fname(f) for f in os.listdir('db/') if '.sqlite' in f]
-    return input(msg.format(files, old_name))
-
-
-# Print options menu
-def print_menu(names):
-    gap = 22
-    dash = '='
-    banner = ' Welcome to msTables '
-    file = '\'{}.sqlite\''.format(db_file['name'])
-    menu = {
-        '0' : 'Change database file name (current name = {})'.format(file),
-        '1' : 'Create database tables and import latest symbols',
-        '2' : 'Download Morningstar data into database',
-        '3' : 'Erase all records from database tables',
-        '4' : 'Delete all database tables',
-        '5' : 'Erase all downloaded history from \'Fetched_urls\' table',
-        #'X' : 'Parse (FOR TESTING PURPOSES)',
-        '6' : 'Create a database back-up file'
+# TODO 1.0.0: Add configuration management
+def load_config():
+    """Load configuration from environment variables or config file."""
+    # TODO 1.1.0: Implement configuration file loading
+    config = {
+        'db_path': os.getenv('DB_PATH', 'data/mstables.sqlite'),
+        'log_level': os.getenv('LOG_LEVEL', 'INFO'),
+        'batch_size': int(os.getenv('BATCH_SIZE', '100')),
     }
+    return config
 
-    print(dash * (len(banner) + gap * 2))
-    print('{}{}{}'.format(dash * gap, banner, dash * gap))
-    print('\nAvailable actions:\n')
-    for k, v in menu.items():
-        print(k, '-', v)
-    print('\n' + dash * (len(banner) + gap * 2))
+def check_database_health():
+    """Check database connectivity and basic health."""
+    # TODO 1.1.0: Implement comprehensive health checks
+    try:
+        config = load_config()
+        conn = sqlite3.connect(config['db_path'])
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table'")
+        table_count = cursor.fetchone()[0]
+        conn.close()
+        logger.info(f"Database health check passed. Found {table_count} tables.")
+        return True
+    except Exception as e:
+        logger.error(f"Database health check failed: {e}")
+        return False
 
-    return menu
+def setup_environment():
+    """Set up the environment and create necessary directories."""
+    # Load environment variables
+    load_dotenv()
+    
+    # Create necessary directories
+    directories = [
+        'data',
+        'data/logs',
+        'data/csv',
+        'data/charts',
+        'data/csv/stock_dfs'
+    ]
+    
+    for directory in directories:
+        Path(directory).mkdir(parents=True, exist_ok=True)
+        logger.info(f"Ensured directory exists: {directory}")
 
-
-# Print command line menu for user input
-def main(file):
-    while True:
-
-        # Print menu and capture user selection
-        ops = print_menu(file)
-        while True:
-            try:
-                inp0 = input('Enter action no.:\n').strip()
-                break
-            except KeyboardInterrupt:
-                print('\nGoodbye!')
-                exit()
-        if inp0 not in ops.keys(): break
-        reload(fetch) #Comment out after development
-        start = time.time()
-        inp = int(inp0)
-        ans = 'y'
-
-        # Ask user to confirm selection if input > 2
-        if inp > 2:
-            msg = '\nAre you sure you would like to {}? (Y/n):\n'
-            ans = input(msg.format(ops[inp0].upper())).lower()
-
-        # Call function according to user input
-        if ans == 'y':
-            print()
-            try:
-                # Change db file name
-                if inp == 0:
-                    db_file['name'] = change_name(db_file['name'])
-                    start = time.time()
-                    db_file['path'] = db_file['npath'].format(db_file['name'])
-                    msg = ('~ Database file \'{}\' selected'
-                        .format(db_file['name']))
-
-                # Create database tables
-                elif inp == 1:
-                    msg = fetch.create_tables(db_file['path'])
-
-                # Download data from urls listed in api.json
-                elif inp == 2:
-                    start = fetch.fetch(db_file['path'])
-                    msg = '\n~ Database updated successfully'
-
-                # Erase records from all tables
-                elif inp == 3:
-                    msg = fetch.erase_tables(db_file['path'])
-
-                # Delete all tables
-                elif inp == 4:
-                    msg = fetch.delete_tables(db_file['path'])
-
-                # Delete Fetched_urls table records
-                elif inp == 5:
-                    msg = fetch.del_fetch_history(db_file['path'])
-
-                # Back-up database file
-                elif inp == int(list(ops.keys())[-1]):
-                    msg = backup_db(db_file)
-
-                # TESTING
-                elif inp == 99:
-                    fetch.parse.parse(db_file['path'])
-                    msg = 'FINISHED'
-            # except sqlite3.OperationalError as S:
-            #     msg = '### Error message - {}'.format(S) + \
-            #         '\n### Scroll up for more details. If table does not ' + \
-            #         'exist, make sure to execute action 1 before choosing' + \
-            #         ' other actions.'
-            #     pass
-            # except KeyboardInterrupt:
-            #     print('\nGoodbye!')
-            #     exit()
-            except Exception as e:
-                print('\a')
-                #print('\n\n### Error @ main.py:\n {}\n'.format(e))
-                raise
-
-            # Print output message
-            #os.system('clear')
-            print(msg)
-
-            # Calculate and print execution time
-            end = time.time()
-            print('\n~ Execution Time\t{:.2f} sec\n'.format(end - start))
+def analyze_data_gaps(shepherd, symbols, table_name='stock_data', lookback_days=365):
+    """
+    Analyze missing data gaps for given symbols.
+    
+    Returns:
+    - Dictionary of symbols with their missing date ranges
+    - Dictionary of symbols with their data completeness percentage
+    """
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=lookback_days)
+    
+    gap_analysis = defaultdict(list)
+    completeness = {}
+    
+    for symbol in symbols:
+        logger.info(f"Analyzing data gaps for {symbol}")
+        missing_dates = shepherd.find_missing_dates(symbol, table_name, start_date, end_date)
+        
+        if missing_dates:
+            # Group consecutive dates
+            date_groups = shepherd._group_consecutive_dates(missing_dates)
+            gap_analysis[symbol] = date_groups
+            
+            # Calculate completeness
+            total_days = (end_date - start_date).days
+            missing_days = len(missing_dates)
+            completeness[symbol] = ((total_days - missing_days) / total_days) * 100
+            
+            logger.info(f"{symbol}: {len(date_groups)} gaps found, {completeness[symbol]:.1f}% complete")
         else:
-            os.system('clear')
+            completeness[symbol] = 100.0
+            logger.info(f"{symbol}: No gaps found, 100% complete")
+    
+    return gap_analysis, completeness
 
+def prioritize_gaps(gap_analysis, completeness):
+    """
+    Prioritize data gaps based on size and completeness.
+    Returns a sorted list of (symbol, start_date, end_date) tuples.
+    """
+    prioritized_gaps = []
+    
+    for symbol, gaps in gap_analysis.items():
+        for start, end in gaps:
+            gap_size = (end - start).days
+            # Prioritize larger gaps and symbols with lower completeness
+            priority_score = gap_size * (100 - completeness[symbol])
+            prioritized_gaps.append((priority_score, symbol, start, end))
+    
+    # Sort by priority score (descending)
+    return sorted(prioritized_gaps, reverse=True)
 
-# Define database (db) file and menu text variables
-db_file = dict()
-db_file['npath'] = 'db/{}.sqlite'
-db_file['name'] = 'mstables'
-db_file['path'] = db_file['npath'].format(db_file['name'])
-db_file['db_backup'] = 'db/backup/{}.sqlite'
+def main():
+    """Main entry point for the application."""
+    # TODO 1.0.0: Add proper command line argument parsing
+    # TODO 1.0.0: Add help text and usage information
+    
+    logger.info("Starting MSTables application")
+    
+    # Check system health
+    if not check_database_health():
+        logger.error("System health check failed. Exiting.")
+        sys.exit(1)
+    
+    # TODO 1.0.0: Add main application logic here
+    # TODO 1.0.0: Implement data processing pipeline
+    # TODO 1.0.0: Add graceful shutdown handling
+    
+    try:
+        # Set up environment
+        setup_environment()
+        logger.info("Starting data management system")
+        
+        # Initialize the data shepherd
+        shepherd = ExtendedDataShepherd()
+        shepherd.initialize_database()
+        
+        # Define symbols to process
+        stock_symbols = ['AAPL', 'MSFT', 'GOOGL', 'AMZN']
+        forex_pairs = [('USD', 'EUR'), ('USD', 'JPY'), ('GBP', 'USD')]
+        crypto_symbols = ['BTC', 'ETH', 'XRP']
+        
+        # Analyze data gaps for stocks
+        logger.info("Analyzing data gaps...")
+        gap_analysis, completeness = analyze_data_gaps(shepherd, stock_symbols)
+        
+        # Prioritize and fetch missing data
+        logger.info("Prioritizing and fetching missing data...")
+        prioritized_gaps = prioritize_gaps(gap_analysis, completeness)
+        
+        for _, symbol, start_date, end_date in prioritized_gaps:
+            logger.info(f"Fetching data for {symbol} from {start_date} to {end_date}")
+            df = shepherd.fetch_missing_data(symbol, start_date, end_date)
+            if not df.empty:
+                shepherd.save_to_database(df, 'stock_data')
+        
+        # Process forex data
+        logger.info("Processing forex data...")
+        for from_curr, to_curr in forex_pairs:
+            df = shepherd.fetch_forex_data(from_curr, to_curr)
+            if not df.empty:
+                shepherd.save_to_database(df, 'forex_data')
+        
+        # Process crypto data
+        logger.info("Processing crypto data...")
+        for symbol in crypto_symbols:
+            df = shepherd.fetch_crypto_data(symbol)
+            if not df.empty:
+                shepherd.save_to_database(df, 'crypto_data')
+        
+        # Create visualizations
+        logger.info("Creating visualizations...")
+        visualizer = DataVisualizer()
+        
+        # Set date range based on available data
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=365)
+        
+        # Generate various charts
+        for ticker in stock_symbols:
+            visualizer.plot_price_history(ticker, start_date, end_date)
+        
+        visualizer.plot_correlation_matrix(stock_symbols, start_date, end_date)
+        visualizer.plot_returns_distribution(stock_symbols, start_date, end_date)
+        visualizer.plot_rolling_volatility(stock_symbols, window=30, start_date=start_date, end_date=end_date)
+        visualizer.plot_sector_performance()
+        
+        # Log data completeness report
+        logger.info("\nData Completeness Report:")
+        for symbol, complete in completeness.items():
+            logger.info(f"{symbol}: {complete:.1f}% complete")
+        
+        logger.info("Data management system completed successfully")
+        
+    except Exception as e:
+        logger.error(f"Error in main process: {str(e)}")
+        raise
 
 if __name__ == '__main__':
-    os.system('clear')
-    main(db_file)
-    print('Goodbye!\n\n')
+    main()

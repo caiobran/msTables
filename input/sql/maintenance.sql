@@ -1,0 +1,15 @@
+delete from Tickers where ticker = '';
+delete from Exchanges where exchange_sym = '';
+delete from Master where exchange_id in (
+	select Master.exchange_id
+		from Master left join Exchanges on Master.exchange_id = Exchanges.id
+		where Exchanges.exchange_sym is null
+	);
+--UPDATE Fetched_urls SET source_text = NULL WHERE source_text IS NOT NULL;
+DELETE FROM Fetched_urls; --WHERE strftime('%Y%W', fetch_date) < strftime('%Y%W', 'now');
+/*DELETE FROM Master
+	WHERE update_date_id in (
+		SELECT id FROM TimeRefs
+			WHERE substr(dates, 1, 1) = '2' AND length(dates) = 10 AND strftime('%Y%W', dates) < strftime('%Y%W', 'now')
+			ORDER BY dates DESC
+	);*/
