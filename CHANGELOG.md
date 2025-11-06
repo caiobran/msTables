@@ -19,6 +19,8 @@ and this project adheres to [Nano Versioning](https://semver.org/):
 - Docker setup with PostgreSQL for financial data
 - SQLite for DandE.db (development/operational tracking)
 - Version tracking in CHANGELOG.md
+- PDS v2.0.0 integration plan (PDS_V2_INTEGRATION_PLAN.md)
+- DDD compliance merge plan (DDD_MERGE_PLAN.md)
 
 ### Changed
 - Updated project structure to support Docker architecture
@@ -26,6 +28,13 @@ and this project adheres to [Nano Versioning](https://semver.org/):
 ### Fixed
 - Database connection handling
 - Test infrastructure setup
+
+### Planned (DDD Compliance)
+- **Version 1.0.3**: Analyze and plan DDD merge (Project_Template, mstables_002)
+- **Version 1.0.4**: Restructure for DDD (domain/application/infrastructure layers)
+- **Version 1.0.5**: Merge Project_Template folder
+- **Version 1.0.6**: Merge mstables_002 folder
+- **Version 1.1.0**: Complete DDD compliance
 
 ---
 
